@@ -1,4 +1,4 @@
-package via.sdj3.rabbitmqspringbootexample2.config;
+package via.sdj3.rabbitmqspringbootexample2.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
