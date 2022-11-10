@@ -29,7 +29,7 @@ public class RabbitMQConfig {
     public Binding binding() {
         return BindingBuilder.bind(productQueue())
                 .to(productExchange())
-                .with("products.routingKey").noargs();
+                .with("products.routingkey").noargs();
     }
 
     @Bean
